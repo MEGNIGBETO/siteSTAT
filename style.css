@@ -44,7 +44,7 @@
 
   
   #page1, #page2, #page3, #page4, #page5 {
-    height: 100vh;
+    height: auto;
     margin-top: 10px;
   }
 
@@ -80,6 +80,18 @@
   }
 
   #page1 {
+    background-color: rgba(175, 175, 175, 0.616);
+  }
+  
+  #page3 {
+    background-color: rgba(175, 175, 175, 0.616);
+  }
+
+  #page5 {
+    background-color: rgba(175, 175, 175, 0.616);
+  }
+
+  /*#page1 {
     background: url(file/page1.jpeg) no-repeat center fixed;
     background-size: cover;
   }
@@ -102,7 +114,7 @@
   #page5 {
     background: url(file/page5.jpeg) no-repeat center fixed;
     background-size: cover;
-  }
+  }*/
 
   #PiedPage {
     background-color: gray;
@@ -125,11 +137,11 @@
     #button-en-tete {
       margin-top: auto;
       margin-left: auto;
-      font-size: 5px;
+      /*font-size: 5px;*/
     }
     
     #page1, #page2, #page3, #page4, #page5 {
-      max-height: 50vh;
+      height: auto;
       margin-top: 10px;
     }
 
@@ -149,7 +161,7 @@
     }
 
     h1 {
-      font-size: 12px;
+      font-size: 15px;
     }
 
     .texte {
