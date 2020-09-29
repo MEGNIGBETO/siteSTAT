@@ -123,7 +123,8 @@
   
   .center_foot {
     text-align: center;
-    color: #fff
+    color: #fff;
+    font-size: 15px;
   } 
   
   @media (max-width: 500px) {
